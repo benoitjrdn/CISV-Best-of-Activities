@@ -34,10 +34,11 @@ The files are text files (markdown). They can be downloaded and read as is.
 
 However, this is far from the best way of doing it. I will succinctly explain how to use it as a database you can filter.
 
-1. Download the files anywhere you want - I suggest Documents/CISV
-2. Download Obisidan on www.obsidian.md
-3. Open Obsidian and select "Open Folder as Vault" and select the file path of Document/CISV (or wherever you downloaded the files).
-4. Drag the "CISV Activities.base" file to Obsidian and open it there
+1. Download the files anywhere you want - I suggest Documents/CISV - to do so press on the green "Code" button and download as a .zip file
+2. Extract those files
+3. Download Obisidan on www.obsidian.md
+4. Open Obsidian and select "Open Folder as Vault" and select the file path of Document/CISV (or wherever you downloaded the files).
+5. Drag the "CISV Activities.base" file to Obsidian and open it there
 
 ### Acknowledgments
 
@@ -52,4 +53,4 @@ In hope that these resources will help you.
 
 Have a nice camp !
 
-Ben :🇫🇷
+Ben
