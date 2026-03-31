@@ -36,7 +36,7 @@ However, this is far from the best way of doing it. I will succinctly explain ho
 
 1. Download the files anywhere you want - I suggest Documents/CISV
 2. Download Obisidan on www.obsidian.md
-3. Select "Open Folder as Vault" and select the file path of Document/CISV (or wherever you downloaded the files).
+3. Open Obsidian and select "Open Folder as Vault" and select the file path of Document/CISV (or wherever you downloaded the files).
 4. Open the "CISV Activities.base" file
 
 ### Acknowledgments
