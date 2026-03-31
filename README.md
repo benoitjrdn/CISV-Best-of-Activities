@@ -35,7 +35,7 @@ The files are text files (markdown). They can be downloaded and read as is.
 However, this is far from the best way of doing it. I will succinctly explain how to use it as a database you can filter.
 
 1. Download the files anywhere you want - I suggest Documents/CISV
-2. Download Obisidan.md
+2. Download Obisidan on www.obsidian.md
 3. Select "Open Folder as Vault" and select the file path of Document/CISV (or wherever you downloaded the files).
 4. Open the "CISV Activities.base" file
 
