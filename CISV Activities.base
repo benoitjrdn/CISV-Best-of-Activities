@@ -1,0 +1,538 @@
+filters:
+  and:
+    - file.path.contains("CISV/Activities")
+properties:
+  note.Length:
+    displayName: Length
+  note.contacts-en-commun:
+    displayName: content
+views:
+  - type: table
+    name: ALL ACTIVITIES
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+      - Statut
+      - activity_length
+      - activity-status
+      - time-in-camp
+    sort:
+      - property: time-in-camp
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    summaries:
+      Activity Type: Empty
+    columnSize:
+      file.name: 327
+      note.Activity Type: 637
+      note.Planning engagement: 180
+      note.Star rating: 106
+  - type: table
+    name: Whole Camp
+    filters:
+      and:
+        - activity_length.contains("whole camp")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    columnSize:
+      file.name: 327
+      note.Activity Type: 378
+      note.Length: 578
+      note.Planning engagement: 54
+      note.Star rating: 58
+  - type: table
+    name: Full, Elongated, & Double Slots
+    filters:
+      and:
+        - activity_length.containsAny("full slot", "elongated slot", "double slot")
+    order:
+      - file.name
+      - Activity Type
+      - Length
+      - Content
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Partial Slot
+    filters:
+      and:
+        - activity_length == ["partial slot"]
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    sort:
+      - property: formula.DESCRIPTION
+        direction: ASC
+    columnSize:
+      file.name: 327
+      note.Activity Type: 637
+      note.Planning engagement: 54
+      note.Star rating: 58
+  - type: table
+    name: Filler
+    filters:
+      and:
+        - activity_length == ["minigame"]
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    sort:
+      - property: formula.DESCRIPTION
+        direction: ASC
+    columnSize:
+      file.name: 327
+      note.Activity Type: 637
+      note.Planning engagement: 54
+      note.Star rating: 58
+  - type: table
+    name: Whole Day
+    filters:
+      and:
+        - activity_length.contains("whole day")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 547
+      note.Activity Type: 599
+      note.Length: 587
+      note.Planning engagement: 189
+      note.Star rating: 147
+  - type: table
+    name: Name Games
+    filters:
+      and:
+        - note["Activity Type"].contains("name game")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Ice Breakers
+    filters:
+      and:
+        - note["Activity Type"].contains(" ice breaker")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+  - type: table
+    name: Cooperation
+    filters:
+      and:
+        - note["Activity Type"].contains("cooperation game")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+      - Statut
+    sort:
+      - property: Statut
+        direction: DESC
+  - type: table
+    name: Trust
+    filters:
+      and:
+        - note["Activity Type"].contains("trust game")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    columnSize:
+      file.name: 547
+      note.Activity Type: 599
+      note.Length: 279
+      note.Planning engagement: 179
+      note.Star rating: 147
+  - type: table
+    name: Simulation
+    filters:
+      and:
+        - note["Activity Type"].contains("simulation game")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Educational
+    filters:
+      and:
+        - note["Activity Type"].contains("educational game")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+  - type: table
+    name: Content 3
+    filters:
+      and:
+        - Content == 3
+    order:
+      - file.name
+      - Content
+      - Planning engagement
+      - Star rating
+      - Statut
+      - Activity Type
+  - type: table
+    name: Content 2
+    filters:
+      and:
+        - Content == 2
+  - type: table
+    name: Content 1
+    filters:
+      and:
+        - Content == 1
+  - type: table
+    name: Content 0
+    filters:
+      and:
+        - Content == 0
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: Activity Type
+        direction: DESC
+  - type: table
+    name: Content > 1
+    filters:
+      and:
+        - Content > 1
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    sort:
+      - property: Location
+        direction: ASC
+      - property: Length
+        direction: ASC
+      - property: Content
+        direction: ASC
+  - type: table
+    name: Inside
+    filters:
+      and:
+        - Location.contains("inside")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Outside
+    filters:
+      and:
+        - Location.contains("outside")
+  - type: table
+    name: Planning Engagement 0
+    filters:
+      and:
+        - note["Planning engagement"] == 0
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: "Planning Engagement : Any (1+)"
+    filters:
+      and:
+        - note["Planning engagement"] > 0
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+      - Statut
+    columnSize:
+      file.name: 327
+      note.Planning engagement: 207
+  - type: table
+    name: Minigames
+    filters:
+      and:
+        - Length.contains("minigame")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Arts & Craft
+    filters:
+      and:
+        - note["Activity Type"].contains("arts and crafts")
+  - type: table
+    name: Bonding
+    filters:
+      and:
+        - note["Activity Type"].contains("bonding activity")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Adult Games
+    filters:
+      or:
+        - note["Activity Type"].contains("adult game")
+    order:
+      - file.name
+      - Activity Type
+      - Length
+  - type: table
+    name: Camp Life
+    filters:
+      and:
+        - note["Activity Type"].contains("camp life")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Non Activities
+    filters:
+      and:
+        - note["Activity Type"].contains("non-activities")
+  - type: table
+    name: Afterhours
+    filters:
+      and:
+        - Length.contains("afterhours")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+    columnSize:
+      file.name: 330
+      note.Activity Type: 405
+      note.Length: 279
+      note.Planning engagement: 187
+      note.Star rating: 237
+  - type: table
+    name: Free Time with Ben
+    filters:
+      and:
+        - note["Activity Type"].contains("free time games with Ben")
+  - type: table
+    name: Competition
+    filters:
+      and:
+        - note["Activity Type"].contains("competition game")
+  - type: table
+    name: Leaders vs Kids
+    filters:
+      and:
+        - note["Activity Type"].contains("leaders vs kids")
+  - type: table
+    name: Self Development
+    filters:
+      and:
+        - note["Activity Type"].contains("self-development game")
+  - type: table
+    name: Silent Activity
+    filters:
+      and:
+        - note["Activity Type"].contains("silent activity")
+  - type: table
+    name: Special Activities
+    filters:
+      and:
+        - note["Activity Type"].contains("special activity")
+  - type: table
+    name: Thinking Games
+    filters:
+      and:
+        - note["Activity Type"].contains("thinking game")
+  - type: table
+    name: ">★"
+    filters:
+      and:
+        - note["Star rating"] > 0
+  - type: table
+    name: ">★★"
+    filters:
+      and:
+        - note["Star rating"] > 1
+  - type: table
+    name: ">★★★"
+    filters:
+      and:
+        - note["Star rating"] > 2
+  - type: table
+    name: ">★★★★"
+    filters:
+      and:
+        - note["Star rating"] > 3
+  - type: table
+    name: ">★★★★★"
+    filters:
+      and:
+        - note["Star rating"] > 4
+  - type: table
+    name: Planning Engagement <3
+    filters:
+      and:
+        - note["Planning engagement"] < 3
+        - note["Planning engagement"] != 0
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: table
+    name: Planning Engagement <2
+    filters:
+      and:
+        - note["Planning engagement"] < 2
+        - note["Planning engagement"] != 0
+  - type: table
+    name: WIP
+    filters:
+      and:
+        - Statut == "WIP"
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+      - Statut
+  - type: table
+    name: SEARCH
+    filters:
+      and:
+        - note["Planning engagement"] == 0
+        - note["Activity Type"].contains("running game")
+    order:
+      - file.name
+      - Planning engagement
+      - Activity Type
+      - Content
+      - Length
+      - Location
+  - type: table
+    name: Leaders Hours
+    filters:
+      or:
+        - Length.contains("leaders hours")
+    order:
+      - file.name
+      - Activity Type
+      - Length
+      - Location
+      - Planning engagement
+  - type: cards
+    name: All Cards
+    image: ""
+    imageFit: contain
+    cardSize: 300
+  - type: table
+    name: Running Games
+    filters:
+      and:
+        - note["Activity Type"].contains("running game")
+    order:
+      - file.name
+      - Activity Type
+      - Content
+      - Length
+      - Location
+      - Planning engagement
+      - Star rating
+  - type: list
+    name: View
+    groupBy:
+      property: Activity Type
+      direction: ASC
+    order:
+      - file.name
+      - Content
