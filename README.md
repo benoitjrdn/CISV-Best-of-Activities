@@ -71,6 +71,5 @@ In the hope that these resources will help you, I wish you a great camp.
 
 **Ben**
 
-_Benoît Jourdan_
-_benoit.jrdan@gmail.com_
+_Benoît Jourdan_ <br> _benoit.jrdan@gmail.com_
 _(+33) 6 42 93 34 66_
