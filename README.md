@@ -50,6 +50,10 @@ Although this works on phones and tablets, I strongly recommend using a computer
 
 All of the activities will be in a folder, and you can browse them freely. But what's really useful is the "CISV Activities.base" file you previously dragged. Clicking on it, you will be able to filter all the activities by their type (ice breaker, cooperation. trust...), by their length (from minigame to whole camp), by whether they can be played inside or outside, by the amount of preparation needed, by the amount of content, and much more. Click on the top left button called "ALL ACTIVITIES" by default, and select whatever fits your needs.
 
+Or you can watch the quick tutorial / demo I made : https://youtu.be/w-aUr3d8PWg
+
+<iframe width="1248" height="480" src="https://www.youtube.com/embed/w-aUr3d8PWg" title="CISV Activities Database Tutorial and Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### Acknowledgments
 
