@@ -52,9 +52,6 @@ All of the activities will be in a folder, and you can browse them freely. But w
 
 Or you can watch the quick tutorial / demo I made : https://youtu.be/w-aUr3d8PWg
 
-<iframe width="1248" height="480" src="https://www.youtube.com/embed/w-aUr3d8PWg" title="CISV Activities Database Tutorial and Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 ### Acknowledgments
 
 This project couldn't have been done without the great people I met through CISV.<br>
