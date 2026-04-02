@@ -5,7 +5,7 @@ This is a compilation of the best CISV activities. This is not an official resou
 
 This database is a work in progress and can be updated any time.
 
-Latest update : 2026/03/31
+> Latest update : _2026/03/31_
 
 1. Purpose
 2. About
@@ -69,8 +69,8 @@ A special thanks goes to Isabella Castro from CISV Ecuador for offering her help
 
 In the hope that these resources will help you, I wish you a great camp.
 
-- Ben
+**Ben**
 
-Benoît Jourdan
-benoit.jrdan@gmail.com
-(+33) 6 42 93 34 66
+_Benoît Jourdan_
+_benoit.jrdan@gmail.com_
+_(+33) 6 42 93 34 66_
