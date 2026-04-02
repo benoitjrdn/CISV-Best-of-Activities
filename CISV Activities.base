@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.path.contains("CISV/Activities")
+    - file.path.contains("Activities")
 properties:
   note.Length:
     displayName: Length
