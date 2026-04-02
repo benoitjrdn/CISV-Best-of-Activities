@@ -1,6 +1,7 @@
 # CISV-Activities
 This is a compilation of the best CISV activities. This is not an official resource and should not be treated as such.
-You can email me at benoit.jrdan@gmail.com for any inquiries. If you have an activity you would like to share, feel free to send it to me so I can publish it !
+
+> You can email me at benoit.jrdan@gmail.com for any inquiries. If you have an activity you would like to share, feel free to send it there !
 
 This database is a work in progress and can be updated any time.
 
@@ -40,7 +41,7 @@ The files are text files (markdown). They can be downloaded and read as is.
 However, this is far from the best way of doing it. I will succinctly explain how to use it as a database that you can filter.
 Although this works on phones and tablets, I strongly recommend using a computer. 
 
-1. Download the files anywhere you want - for instance "Documents/CISV". To do so, press on the green "Code" button and download as a .zip file
+1. Download the files anywhere you want - for instance "Documents/CISV". To do so, go to the "Activities" folder, press on the green "Code" button and download as a .zip file
 2. Extract those files
 3. Download Obisidan on www.obsidian.md
 4. Open Obsidian and select "Open Folder as Vault" and select the path of "Document/CISV" (or wherever your extracted files are).
