@@ -38,9 +38,12 @@ Updates will be made in the future (more activities, more details, ideas for deb
 ### How to use it
 
 The files are text files (markdown). They can be downloaded and read as is.
-
 However, this is far from the best way of doing it. I will succinctly explain how to use it as a database that you can filter.
 Although this works on phones and tablets, I strongly recommend using a computer. 
+
+You can either watch the quick tutorial / demo I made : https://youtu.be/w-aUr3d8PWg
+
+Or follow the following steps : 
 
 1. Download the files anywhere you want - for instance "Documents/CISV". To do so, go to the "Activities" folder, press on the green "Code" button and download as a .zip file
 2. Extract those files
@@ -49,8 +52,6 @@ Although this works on phones and tablets, I strongly recommend using a computer
 5. Drag the "CISV Activities.base" file to Obsidian and open it there
 
 All of the activities will be in a folder, and you can browse them freely. But what's really useful is the "CISV Activities.base" file you previously dragged. Clicking on it, you will be able to filter all the activities by their type (ice breaker, cooperation. trust...), by their length (from minigame to whole camp), by whether they can be played inside or outside, by the amount of preparation needed, by the amount of content, and much more. Click on the top left button called "ALL ACTIVITIES" by default, and select whatever fits your needs.
-
-Or you can watch the quick tutorial / demo I made : https://youtu.be/w-aUr3d8PWg
 
 ### Acknowledgments
 
