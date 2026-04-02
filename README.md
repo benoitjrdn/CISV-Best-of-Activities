@@ -52,18 +52,12 @@ All of the activities will be in a folder, and you can browse them freely. But w
 
 ### Acknowledgments
 
-This project couldn't have been done without the great people I met through CISV.
-
-Thank you to the Leaders, Staffs, and JCs that I have met throughout my different camps, and from whom I learnt a lot.
-
-Thank you to the Leaders, Staffs, JCs, and participants of the Summer Village in South Korea in 2014 for inspiring me all these years.
-
-Thank you to the volunteers in CISV France who helped me before, during, and after my camps.
-
-Thank you to everyone who shared an activity, and to those who unknowingly contributed to this project by creating activities in 1993.
-
-Thank you for reading this, which I see as a sign of your mindfulness in creating the best activities you can.
-
+This project couldn't have been done without the great people I met through CISV.<br>
+Thank you to the Leaders, Staffs, and JCs that I have met throughout my different camps, and from whom I learnt a lot.<br>
+Thank you to the Leaders, Staffs, JCs, and participants of the Summer Village in South Korea in 2014 for inspiring me all these years.<br>
+Thank you to the volunteers in CISV France who helped me before, during, and after my camps.<br>
+Thank you to everyone who shared an activity, and to those who unknowingly contributed to this project by creating activities in 1993.<br>
+Thank you for reading this, which I see as a sign of your mindfulness in creating the best activities you can. <br>
 A special thanks goes to Isabella Castro from CISV Ecuador for offering her help and pushing me to actually publish this.
 
 
@@ -71,5 +65,4 @@ In the hope that these resources will help you, I wish you a great camp.
 
 **Ben**
 
-_Benoît Jourdan_ <br> _benoit.jrdan@gmail.com_
-_(+33) 6 42 93 34 66_
+_Benoît Jourdan_ <br> _benoit.jrdan@gmail.com_ <br> _(+33) 6 42 93 34 66_
