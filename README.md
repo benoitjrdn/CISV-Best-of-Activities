@@ -1,5 +1,5 @@
 # CISV-Activities
-This is a compilation of the best CISV activities. This is not an official resource and should not be treated as such.
+This is a compilation of the best CISV activities. This is **not an official resource** and should not be treated as such.
 
 > You can email me at benoit.jrdan@gmail.com for any inquiries. If you have an activity you would like to share, feel free to send it there !
 
